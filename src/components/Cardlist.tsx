@@ -3,7 +3,7 @@ import Card from './Card'
 
 export default function CardList() {
   return (
-    <main className="flex flex-col px-6 py-8 gap-8">
+    <main className="flex flex-col px-6 py-8 gap-8 items-center">
       <Card
         altDescription="xbox"
         image="/images/xbox.png"
@@ -28,7 +28,7 @@ export default function CardList() {
         title="EA Games confirma novo jogo e janela de lançamento"
         date="30 de agosto, 2023"
       />
-      <Button>CARREGAR MAIS</Button>
+      <Button type="body">CARREGAR MAIS</Button>
     </main>
   )
 }
