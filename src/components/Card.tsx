@@ -15,7 +15,7 @@ export default function Card({ altDescription, date, image, title }: Props) {
       />
       <article className="absolute bottom-5 left-5 text-dark30 mr-5">
         <p className="text-base">{date}</p>
-        <h4 className="mt-3 text-2xl">{title}</h4>
+        <h4 className="mt-3 text-2xl sm:text-4xl">{title}</h4>
       </article>
     </section>
   )
