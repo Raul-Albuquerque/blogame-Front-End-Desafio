@@ -1,3 +1,4 @@
+import Button from './Button'
 import Card from './Card'
 
 export default function CardList() {
@@ -27,6 +28,7 @@ export default function CardList() {
         title="EA Games confirma novo jogo e janela de lançamento"
         date="30 de agosto, 2023"
       />
+      <Button>CARREGAR MAIS</Button>
     </main>
   )
 }
